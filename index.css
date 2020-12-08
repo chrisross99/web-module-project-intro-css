@@ -18,3 +18,27 @@ font-size: 100%;
 font: inherit;  
 vertical-align: baseline;  
 }
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.planbutton {
+    background-color: #FF764E
+    font-size: 2rem;
+    padding: 1.2rem;
+}
+
+.learnbutton {
+    background-color: #5ED3EB
+    font-size: 2rem;
+    padding: 1.2rem;
+}
+
+.getinvolvedbutton {
+    background-color: #FFCD69 
+    font-size: 2rem;
+    padding: 1.2rem;
+}
