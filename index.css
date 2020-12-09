@@ -19,26 +19,138 @@ font: inherit;
 vertical-align: baseline;  
 }
 
+body {
+    font-family: Roboto Mono;
+}
+
+strong {
+    font-weight: bold;
+}
+
 nav {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+nav a {
+    color: white;
 }
 
 .planbutton {
-    background-color: #FF764E
-    font-size: 2rem;
-    padding: 1.2rem;
+    background-color: #FF764E;
+    font-size: 1.2rem;
+    padding: 20px;
+    margin: 35px 50px 35px 50px;
+    text-decoration: none;
+    border-radius: 8%;
 }
 
 .learnbutton {
-    background-color: #5ED3EB
-    font-size: 2rem;
-    padding: 1.2rem;
+    background-color: #5ED3EB;
+    font-size: 1.2rem;
+    padding: 20px;
+    margin: 35px 50px 35px 50px;
+    text-decoration: none;
+    border-radius: 8%;
 }
 
 .getinvolvedbutton {
-    background-color: #FFCD69 
-    font-size: 2rem;
-    padding: 1.2rem;
+    background-color: #FFCD69;
+    font-size: 1.2rem;
+    padding: 20px;
+    margin: 35px 50px 35px 50px;
+    text-decoration: none;
+    border-radius: 8%;
+}
+
+.header_img {
+    border-radius: 50%;
+    float: left;
+    width: 20%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 2.5%;
+    padding: 10px;
+}
+
+.topsection {
+    width: 60%;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    font-size: 17px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: Chelsea Market;
+    font-size: 40px;
+    margin-bottom: 3%;
+}
+
+.main-section {
+    color: white;
+    font-size: 18px;
+    width: 75%;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    padding: 15px;
+    background-color: #DDB9A3;
+}
+
+.fireimg {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    width: 25%;
+    height: 25%;
+}
+
+.firesection p {
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+    width: 25%;
+}
+
+.camper_img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    width: 25%;
+    height: 25%;
+}
+
+.campersection p {
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+    width: 25%;
+    margin-bottom: 35px;
+}
+
+footer {
+    background-color: #F9E7DC;
+    width: 100%;
+    height: 400px;
+    padding: 0 0 17% 0;
+}
+
+.footerimage {
+    width: 100%;
+    height: 400px;
 }
